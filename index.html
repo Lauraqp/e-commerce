@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>FastKart</title>
+</head>
+<body>
+    <nav class="navOne">
+        <p>Something you love is now on sale! <a href="">Buy Now!</a></p>
+        <figure><img id="usaImg" src="./material page/USA.png" alt=""></figure>
+        <div>
+            <select class="language">
+                <option value="English">English</option>
+                <option value="Spanish">Spanish</option>
+            </select>
+            <select class="coin">
+                <option value="usd">USD</option>
+                <option value="cop">COP</option>
+                <option value="euro">EUR</option>
+            </select>
+        </div>
+    </nav>
+
+    <header>
+        <div class="headerOne">
+            <figure>
+                <img id="logo" src="./material page/logo.png" alt="logo">
+            </figure>
+            <figure>
+                <img id="location" src="./material page/location.jpg" alt="location">
+            </figure>
+         
+            <div class="headerTwo">
+               <input id="inputSearch" type="text" placeholder="I'm searching for...">
+               <button id="buttonSearch"></button>
+
+            <div class="icons">
+            <figure>
+            <img src="./material page/call.jpg" alt="call">
+            <button>
+                <a href="./pages/favoritos.html"><img src="./material page/hearth.jpg" alt="hearth"></a>
+            </button>
+            <button id="buttonCart">
+                <a href="./pages/cart.html"><img src="./material page/buys.jpg" alt="buys"></a>
+                <div class="contenidoCarrito"> <!--mostrar el carrito-->
+                 <span>Empty Cart(carrito vacío)</span>
+                </div>
+            </button>
+           
+            <button>
+                <a href="./pages/administrador.html"><img src="./material page/user.jpg" alt="user"></a>
+            </button>
+            </figure>
+            </div>
+            
+        </div>
+    </div>
+        <nav>
+            <!-- MENU HAMBURGUESA -->
+            <div class="icono-menu">
+              <img src="./material page/hamburger-menu-icon-png-white-10.jpg" id="icono-menu">
+            </div>
+            <div class="cont-menu active" id="menu">
+                <ul>
+                    <li>Vegetables & Fruit</li>
+                    <li>Meats & seafood</li>
+                    <li>Biscuits & snacks</li>
+                    <li>Winer & Alcohol drinks</li>
+                </ul>
+
+            </div>
+            <div class="selectsHeader">
+            <select>
+                <option>Home</option>
+            </select>
+            <select>
+                <option>Shop</option>
+            </select>
+            <select>
+                <option>Product</option>
+            </select>
+            <select>
+                <option>Mega Menu</option>
+            </select>
+            <select>
+                <option>Blog</option>
+            </select>
+            <select>
+                <option>Pages</option>
+            </select>
+            <select>
+                <option>Contact</option>
+            </select>
+        </div>
+        </nav>
+    </header>
+
+    <main>
+
+     <!--- SECTION ONE MAIN  -->
+        <section class="sectionMain">
+            <div class="divSection1">
+                <div class="divLeft">
+                    <div class="textImageOne">
+                        <h6>Exclusive Offer</h6>
+                        <h1>STAY HOME & DELIVERED YOU <br><span>DAILY NEEDS</span></h1>
+                        <p>Vegetables contain many vitamins and minerals that are good for your healt</p>
+                        <button>Shop Now -></button>
+                    </div>
+                    <figure>
+                        <img  src="./material page/1.jpg" alt="one">
+                    </figure>
+                </div>
+                    <div class="divRight">
+                        <div class="textImageTwo">
+                            <h6><span>45% </span>OFF</h6>
+                            <h1>Nut Collection</h1>
+                            <p>We deliver organic vegetables & Fruits</p>
+                            <button>Shop Now -></button>
+                        </div>
+                        <figure>
+                            <img src="./material page/2.jpg" alt="two">
+                        </figure>
+                    <div>
+                        <div class="textImageThree">
+                            <h6>Healthy Food</h6>
+                            <h1>Organic Market</h1>
+                            <p>Start your daily <br>shopping with som..</p>
+                            <button>Shop Now -></button>
+                        </div>
+                        <figure>
+                            <img src="./material page/3.jpg" alt="three">
+                        </figure>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        </section>
+        <section class="sectionMainTwo">
+            <div class="divCenter">
+                <div class="textImageFour">
+                    <h6>5% OFF</h6>
+                    <h1>Hot Deals on New Items</h1>
+                    <p>Daily Essentials Eggs & Dairy</p>
+                    <button>Shop Now -></button>
+                </div>
+                 <figure>
+                     <img src="./material page/4.jpg" alt="">
+                 </figure>
+
+                <div>
+                    <div class="textImageFive">
+                        <h6>5% OFF</h6>
+                        <h1>Buy More & Save More</h1>
+                        <p>Fresh Vegetables</p>
+                        <button>Shop Now -></button>
+                    </div>
+                 <figure>
+                     <img src="./material page/5.jpg" alt="">
+                 </figure>
+                </div>
+                <div>
+                    <div class="textImageSix">
+                        <h6>5% OFF</h6>
+                        <h1>Organic Meat Prepared</h1>
+                        <p>Delivered to Your Home</p>
+                        <button>Shop Now -></button>
+                    </div>
+                 <figure>
+                     <img src="./material page/6.jpg" alt="">
+                 </figure>
+                </div>
+             </div>
+        </section>
+
+
+
+       <!--- CONTAINER CARDS--> 
+        <section class="containerMain">
+        <div class="containerAside">
+            <div class="containerAsideInterior">
+                <h2>Category</h2>
+                <ul>
+                    <li>
+                        <div>
+                        <figure>
+                            <img src="./material page/vegetable.svg" alt="vegetables">
+                            <h4>Vegetables & Fruit</h4>
+                        </figure>
+                    </div>
+                    </li>
+                    <li>
+                        <div>
+                        <figure>
+                            <img src="./material page/cup.svg" alt="cup">
+                            <h4>Beverages</h4>
+                        </figure>
+                    </div>
+                    </li>
+                    <li>
+                        <div>
+                        <figure>
+                            <img src="./material page/meats.svg" alt="meats">
+                            <h4>Meats & Seafood</h4>
+                        </figure>
+                    </div>
+                    </li>
+                    <li>
+                        <div>
+                        <figure>
+                            <img src="./material page/breakfast.svg" alt="breakfast">
+                            <h4>Breakfast & Dairy</h4>
+                        </figure>
+                    </div>
+                    </li>
+                    <li>
+                        <div>
+                        <figure>
+                            <img src="./material page/frozen.svg" alt="frozen">
+                            <h4>Frozen Foods</h4>
+                        </figure>
+                    </div>
+                    </li>
+                    <li>
+                        <div>
+                        <figure>
+                            <img src="./material page/biscuit.svg" alt="biscuit">
+                            <h4>Biscuits & Snacks</h4>
+                        </figure>
+                    </div>
+                    </li>
+                    <li>
+                        <div>
+                        <figure>
+                            <img src="./material page/grocery.svg" alt="grocery">
+                            <h4>Grocery & Staples</h4>
+                        </figure>
+                    </div>
+                    </li>
+                    <li>
+                        <div>
+                        <figure>
+                            <img src="./material page/drink.svg" alt="drinks">
+                            <h4>Wines & Alcohol Drinks</h4>
+                        </figure>
+                    </div>
+                    </li>
+                    <li>
+                        <div>
+                        <figure>
+                            <img src="./material page/milk.svg" alt="milk">
+                            <h4>Milk & Dairies</h4>
+                        </figure>
+                    </div>
+                    </li>
+                    <li>
+                        <div>
+                        <figure>
+                            <img src="./material page/pet.svg" alt="pet">
+                            <h4>Pet Foods</h4>
+                        </figure>
+                    </div>
+                    </li>
+                </ul>
+                <h5>Value of the Day</h5>
+                <h5>Top 50 Offers</h5>
+                <h5>New Arrivals</h5>
+            </div>
+        </div>
+        <div>
+            <h6>Top Save Today</h6>
+        <section id="containerPrincipal"> <!---CONTAINER CARRITO-->
+            
+        </section>
+        </div>
+    </section>
+
+    </main>
+    <footer>
+        <div class="divFooter">
+        <div class="footerOne">
+            <figure>
+                <img id="logo" src="./material page/logo.png" alt="lgo">
+            </figure>
+            <p>In publishing and graphic design, lorem ipsum is a placeholder text 
+                commonly used to demonstrate the visual form.</p>
+                <p>1418 Riverwood Drive, CA 96052, US</p>
+                <p>support@fastkart.com</p>
+        </div>
+           
+            <div class="listFooter">
+                <ul>
+                    <h8>Categorie</h8>
+                    <li><a>Vegetables & Fruit</a></li>
+                    <li><a>Beverages</a></li>
+                    <li><a>Meats & Seafood</a></li>
+                    <li><a>Frozen Foods</a></li>
+                    <li><a>Biscuits & Snacks</a></li>
+                    <li><a>Grocery & Staples</a></li>
+                </ul>
+            <ul>
+                <h8>Useful Links</h8>
+                <li><a>Home</a></li>
+                <li><a>Shop</a></li>
+                <li><a>About Us</a></li>
+                <li><a>Blog</a></li>
+                <li><a>Contact Us</a></li>
+            </ul>
+            <ul>
+                <h8>Help Center</h8>
+                <li><a>Your order</a></li>
+                <li><a>Your Acount</a></li>
+                <li><a>Track Order</a></li>
+                <li><a>Your Wishlist</a></li>
+                <li><a>Search</a></li>
+                <li><a>FAQ</a></li>
+            </ul>
+        </div>
+        <div class="divContact">
+            <h7>Contact Us</h7>
+            <p>Hotline 24/7: <br> +91 888 104 2340</p>
+            <div>
+            <h7>Email Address:</h7>
+            <p>fastkart@gmail.com</p>
+        </div>
+        </div>
+        </div>
+    </footer>
+
+
+    <script src="./mainFinal.js"></script>
+</body>
+</html>

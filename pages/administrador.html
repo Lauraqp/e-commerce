@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="no-referrer">
+    <link rel="stylesheet" href="./administrador.css">
+    <title>FastKart</title>
+</head>
+
+
+    <nav class="navOne">
+        <nav>
+            <h1>Cart</h1>
+        <a href="../index.html">Ir a Inicio</a> </nav>
+        <p>Something you love is now on sale! <a href="">Buy Now!</a></p>
+        <div>
+            <select class="language">
+                <option value="English">English</option>
+                <option value="Spanish">Spanish</option>
+            </select>
+            <select class="coin">
+                <option value="usd">USD</option>
+                <option value="cop">COP</option>
+                <option value="euro">EUR</option>
+            </select>
+        </div>
+    </nav>
+
+   
+    <body>
+        <div class="divBtnNew">
+            <button type="button" id="btnNew">Nuevo</button>
+        </div>
+        <aside id="containerForm" class="hidden">
+            <form id="form">
+                <input type="text" placeholder="ID" name="id">
+                <input type="text" placeholder="Nombre" name="tittle">
+                <input type="text" placeholder="Catergoria" name="category"> 
+                <input type="text" placeholder="Descripción" name="description"> 
+                <input type="text" placeholder="Precio" name="price"> 
+                <input type="text" placeholder="Cantidad" name="quantity"> 
+                <input type="text" placeholder="URL imagen" name="image">  
+                <button type="submit">Guardar</button>
+            </form>
+        </aside>
+
+        <h1>admin</h1>
+        <input type="text" placeholder="Buscar" id="search">
+        <button id="btnSearch">Buscar</button>
+
+        <section id="containerCards">
+            
+            
+        </section>
+
+       
+
+    </body>
+    
+    <script src="./administrados.js"></script>
+    </html>

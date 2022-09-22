@@ -1,0 +1,592 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navOne{
+    height: 3vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2vw;
+    padding-right: 5vw;
+    background-color: #0da487;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navOne a{
+    color: white;
+    
+}
+.navOne a:hover{
+    color:rgb(71, 51, 90);
+}
+#usaImg{
+    width: 15px;
+    margin-left: 59vw;
+}
+.language {
+    background-color: #0da487;
+    border: none;
+    color: white;
+}
+
+.coin {
+    background-color: #0da487;
+    border: none;
+    color: white;
+}
+/* header */
+header{
+    height: 12vw;
+    background-color: white;
+}
+.headerOne{
+    display: flex;
+    height: 6vw;
+    align-items: center;
+    margin-left: 5vw;
+    margin-right: 5vw;
+
+}
+#logo{
+    width: 15vw;
+}
+#location{
+    width: 40px;
+    padding: 5px;
+    border: solid rgb(230, 228, 228) 1px;
+    border-radius: 5px;
+    margin-left: 6vw;
+    
+    
+}
+.headerTwo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    left: 30vw;
+    height: 5vw;
+    width: 65vw;
+}
+
+.icons figure{
+    width: 12vw;
+    margin-left: 8vw;
+}
+.icons figure img{
+    width: 30px;
+    margin: 3px;
+}
+.headerTwo input{
+    width: 40vw;
+    height: 3.5vw;
+    border: solid 1px rgb(244, 240, 240);
+    font-size: 16px;
+}
+#buttonSearch{
+    width: 4vw;
+    height: 3.5vw;
+    margin-right: 1vw;
+    background-color: #e67e22;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+}
+header nav{
+    display: flex;
+    width: 90vw;
+    height: 4vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+.selectsHeader{
+    width: 80vw;
+    margin-left: 5vw;
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    flex-wrap: wrap;
+    
+}
+.selectsHeader select{
+    width: 7vw;
+    height: 2vw;
+    font-size: 16px;
+    text-align: center;
+    border: none;
+    
+
+}
+/* MENU HAMBURGUESA  */
+.icono-menu{
+    margin: 40px 50px;
+    position: relative;
+    z-index: 10;
+    background-color: #0da487;
+    color: white;
+    font-size: 18px;
+
+}
+.icono-menu img{
+    vertical-align: top;
+    width: 40px;
+    cursor: pointer;
+}
+/*estilos para contenedor del menú*/
+.cont-menu{
+    background-color: rgb(42,42,42);
+    box-shadow: 2px 0px 5px 2px rgb(66,66,66);     /* efecto de las sombras en un elemento */ 
+    width: 400px;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all .5s ease;
+}
+
+/*estilos por agregar en js*/
+.active{
+    transform: translate(-600px);
+}
+.opacity{
+    background-color: rgb(0,0,0,0.5);
+    transition: all .5s ease;
+}
+/*estilo para listado del menú*/
+.cont-menu ul{
+    padding: 100px 0px 20px 0px;
+    list-style: none;
+}
+.cont-menu ul li{
+    color: white;
+    display: block;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 10px 50px;
+    cursor: pointer;
+}
+.cont-menu ul li:hover{
+    background-color: rgb(228,228,228);
+    color: rgb(42,42,42);
+}
+
+
+
+
+/* MAIN */
+main{
+    margin-left: 7vw;
+    margin-right: 5vw;
+}
+.sectionMain{
+    height: 600px;
+}
+.divSection1{
+    display: flex;
+    gap: 2vw;
+    padding: 1vw;
+
+}
+.divLeft{
+    width: 100%;
+    height: 70%;
+
+}
+.divLeft figure img{
+    width: 100%;
+
+}
+.divRight{
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+   
+}
+.divRight figure img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.divCenter{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    width: 100%;
+    height: 20vw;
+    gap: 2vw;
+    margin: 10px;
+}
+.divCenter figure img {
+    width:100%;
+    margin: 1vw;
+  
+
+}
+.containerMain{
+    display: flex;
+    justify-content: space-around;
+}
+
+.containerAsideInterior{
+    display: inline-block;
+    flex-direction:row;
+    width:400px;
+} 
+.containerAside{
+    background-color: rgb(245, 247, 247);
+    width: 15vw;
+    height: 45vw;
+
+}
+.containerAside h5{
+    line-height: 2vw;
+
+}
+.containerAsideInterior img{
+    width: 2vw;
+}
+.containerAsideInterior ul li{
+    list-style: none;
+    align-items: center;
+}
+#containerPrincipal{
+    display:block;
+    flex-direction:column;
+    columns:3;
+    width: 100%;
+    margin-bottom: 4vw;
+    align-items: center;
+   
+
+}
+
+
+#containerPrincipal ul li{
+    width: 100%;
+    list-style: none;
+}
+.Cards{
+    width:20vw;
+    height: 20vw;
+    border: solid rgb(191, 190, 190) 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 4vw;
+
+ 
+
+}
+#price{
+    color: #0da487;
+    font-weight: bolder;
+    font-size: 1.3vw;
+}
+#tittle{
+    font-weight: bolder;
+    
+}
+#category{
+    color: #0da487;
+    font-size: 13px;
+}
+h6{
+    margin-top: 2vw;
+    margin-left: 3vw;
+    width: 10vw;
+    font-size: 20px;
+    align-items: center;
+}
+#containerPrincipal figure img{
+    width: 9vw;
+}
+footer{
+    width: 100%;
+    background-color:  rgb(245, 247, 247);
+    display: flex;
+    flex-direction: column;
+}
+.divFooter{
+    display: flex;
+    flex-direction: row;
+    margin: 2vw;
+    margin-left: 8vw;
+    margin-right: 8vw;
+}
+.footerOne{
+    width: 25%;
+    height: 16vw;
+    margin: 1vw;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5vw;
+    font-size: 14px;
+}
+
+.footerOne img{
+    margin: 1vw;
+}
+.listFooter{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+.listFooter ul li{
+    list-style: none;
+    margin-top: 1vw;
+
+}
+h8{
+    font-weight: bolder;
+}
+.listFooter a:hover{
+    color:#0da487;
+    
+}
+
+.divContact{
+    width: 15vw;
+    background-color:  rgb(245, 247, 247);
+    display: flex;
+    flex-direction: column;
+    line-height: 1vw;
+    gap: 2vw;
+}
+.buttonMinus{
+    width: 5vw;
+    font-size: 1vw;
+    border-radius: 1vw;
+    border: none;
+    color: #0da487;
+    cursor: pointer;
+
+}   
+.buttonPlus{
+    width: 5vw;
+    font-size: 1vw;
+    border-radius: 1vw;
+    border: none;
+    color: #0da487;
+    cursor: pointer;
+}    
+.buttonFavorites{
+    width: 5vw;
+    font-size: 1vw;
+    border-radius: 1vw;
+    border: none;
+    color: #0da487;
+    cursor: pointer;
+
+}
+.buttonAddCart{
+    width: 6vw;
+    font-size: 1vw;
+    border-radius: 1vw;
+    border: none;
+    color: #0da487;
+    cursor: pointer;
+
+}
+.textImageOne{
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    width: 20%;
+    height: 15vw;
+    line-height: 2vw;
+    
+}
+.textImageOne h6{
+    font-size: 14px;
+    margin-left: 0vw;
+    font-weight: normal;
+}
+.textImageOne span{
+    color: #0da487;
+    font-weight: bolder;
+
+}
+.textImageOne h1{
+    font-size: 35px;
+    font-weight: normal;
+}
+.textImageOne button{
+    background-color: rgb(234, 75, 36);
+    color: white;
+    border: none;
+    width: 10vw;
+    height: 3vw;
+    border-radius: 1vw;
+    font-size: 16px;
+}
+.textImageTwo{
+    position: absolute;
+    margin-left: 1vw;
+    margin-top: 1vw;
+    width: 12vw;
+    line-height: 2vw;
+}
+.textImageTwo h6{
+    margin-left: 0vw;
+    font-weight: normal;
+    font-size: 15px;
+}
+.textImageTwo span{
+    color:rgb(234, 75, 36);
+    font-weight: bolder;
+    font-size: 25px;
+}
+.textImageTwo button{
+    border: none;
+    width: 10vw;
+    height: 3vw;
+    font-weight: bolder;
+}
+.textImageTwo h1{
+    color: #0da487;
+}
+
+
+.textImageThree{
+    position: absolute;
+    margin-left: 1vw;
+    margin-top: 1vw;
+    width: 12vw;
+    line-height: 2vw;
+}
+.textImageThree h6{
+    margin-left: 0vw;
+    font-size: 22px;
+    color: #0da487;
+}
+
+.textImageThree button{
+    border: none;
+    width: 10vw;
+    height: 3vw;
+    font-weight: bolder;
+}
+.textImageThree h1{
+    color:rgb(234, 75, 36);
+    font-weight: normal;
+    font-size: 18px;
+}
+.textImageFour{
+        position: absolute;
+        margin-left: 1vw;
+        width: 20vw;
+        height: 8vw;
+        line-height: 2vw;
+        background-color: rgba(255, 255, 255, 0.567);
+        border-radius: 2vw;
+        align-items: center;
+}
+.textImageFour h6{
+    margin-left: 1vw;
+    color:rgb(234, 75, 36);
+    font-size: 14px;
+
+}
+.textImageFour button{
+    border: none;
+    height: 2vw;
+    background-color: rgba(240, 248, 255, 0);
+    color: white;
+    margin-left: 3vw;
+    margin-top: 1vw;
+    font-weight: bolder;
+    font-size: 16px;
+}
+.textImageFive{
+
+        position: absolute;
+        margin-left: 1vw;
+        margin-top: 5vw;
+        width: 20vw;
+        height: 8vw;
+        line-height: 2vw;
+        background-color: rgba(255, 255, 255, 0.567);
+        border-radius: 2vw;
+        align-items: center;
+    
+}
+.textImageFive h6{
+    margin-left: 1vw;
+    color:rgb(234, 75, 36);
+    font-size: 14px;
+
+}
+
+.textImageFive button{
+    border: none;
+    height: 2vw;
+    background-color: rgba(240, 248, 255, 0);
+    color: white;
+    margin-left: 3vw;
+    margin-top: 1vw;
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+
+.textImageSix{
+    position: absolute;
+    margin-top: 5vw;
+    margin-left: 1vw;
+    width: 20vw;
+    height: 8vw;
+    line-height: 2vw;
+    background-color: rgba(255, 255, 255, 0.567);
+    border-radius: 2vw;
+    align-items: center;
+
+}
+.textImageSix h6{
+margin-left: 1vw;
+color:rgb(234, 75, 36);
+font-size: 14px;
+
+}
+
+.textImageSix button{
+border: none;
+height: 2vw;
+background-color: rgba(240, 248, 255, 0);
+color: white;
+margin-left: 3vw;
+margin-top: 1vw;
+font-weight: bolder;
+font-size: 16px;
+}
+
+/* MOSTRAR EL CARRITO  */
+.contenidoCarrito{
+    width: 500px;
+    height: 500px;
+    background-color: silver;
+    position: absolute;
+    top: 70px;
+    right: 50px;
+    visibility: hidden;
+}
+#buttonCart:hover .contenidoCarrito{
+    visibility: visible;
+};
+
+@media screen and(min-width:500px) {
+    body{
+        display: flex;
+        flex-direction: column;
+        background-color:#e67e22;
+    }
+    footer{
+        background-color: blue;
+    }
+}

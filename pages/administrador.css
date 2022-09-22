@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navOne{
+    height: 3vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2vw;
+    padding-right: 5vw;
+    background-color: #16a085;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navOne a{
+    color: white;
+    
+}
+.navOne a:hover{
+    color:rgb(71, 51, 90);
+}
+#usaImg{
+    width: 15px;
+    margin-left: 59vw;
+}
+.language {
+    background-color: #16a085;
+    border: none;
+    color: white;
+}
+
+.coin {
+    background-color: #16a085;
+    border: none;
+    color: white;
+}
+/* header */
+header{
+    height: 12vw;
+    background-color: white;
+}
+.headerOne{
+    display: flex;
+    height: 6vw;
+    align-items: center;
+    margin-left: 5vw;
+    margin-right: 5vw;
+
+}
+#logo{
+    width: 15vw;
+}
+#location{
+    width: 40px;
+    padding: 5px;
+    border: solid rgb(230, 228, 228) 1px;
+    border-radius: 5px;
+    margin-left: 6vw;
+    
+    
+}
+.headerTwo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    left: 30vw;
+    height: 5vw;
+    width: 65vw;
+}
+
+.icons figure{
+    width: 12vw;
+    margin-left: 8vw;
+}
+.icons figure img{
+    width: 30px;
+    margin: 3px;
+}
+.headerTwo input{
+    width: 40vw;
+    height: 3.5vw;
+    border: solid 1px rgb(244, 240, 240);
+    font-size: 16px;
+}
+#buttonSearch{
+    width: 4vw;
+    height: 3.5vw;
+    margin-right: 1vw;
+    background-color: #e67e22;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+}
+header nav{
+    display: flex;
+    width: 90vw;
+    height: 4vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+.selectsHeader{
+    width: 80vw;
+    margin-left: 5vw;
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    flex-wrap: wrap;
+    
+}
+.selectsHeader select{
+    width: 7vw;
+    height: 2vw;
+    font-size: 16px;
+    text-align: center;
+    border: none;
+    
+
+}
+/* MENU HAMBURGUESA  */
+.icono-menu{
+    margin: 40px 50px;
+    position: relative;
+    z-index: 10;
+    background-color: #16a085;
+    color: white;
+    font-size: 18px;
+
+}
+.icono-menu img{
+    vertical-align: top;
+    width: 40px;
+    cursor: pointer;
+}
+/*estilos para contenedor del menÃº*/
+.cont-menu{
+    background-color: rgb(42,42,42);
+    box-shadow: 2px 0px 5px 2px rgb(66,66,66);     /* efecto de las sombras en un elemento */ 
+    width: 400px;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all .5s ease;
+}
+
+/*estilos por agregar en js*/
+.active{
+    transform: translate(-600px);
+}
+.opacity{
+    background-color: rgb(0,0,0,0.5);
+    transition: all .5s ease;
+}
+/*estilo para listado del menÃº*/
+.cont-menu ul{
+    padding: 100px 0px 20px 0px;
+    list-style: none;
+}
+.cont-menu ul li{
+    color: white;
+    display: block;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 10px 50px;
+    cursor: pointer;
+}
+.cont-menu ul li:hover{
+    background-color: rgb(228,228,228);
+    color: rgb(42,42,42);
+}
+
+
+
+
+/* MAIN */
+main{
+    height: 100vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+#containerCards img{
+    width: 20vw;
+}
+
+aside {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.divBtnNew {
+    display: flex;
+    justify-content: center;
+}
+
+/* .hidden {
+   display: none; 
+} */
+
+#containerCards{
+    display:block;
+    flex-direction:column;
+    columns:3;
+    width: 100%;
+    margin-bottom: 4vw;
+    align-items: center;
+   
+
+}
+
+
+#containerCards ul li{
+    width: 100%;
+    list-style: none;
+}
+.Cards{
+    width:20vw;
+    height: 20vw;
+    border: solid rgb(191, 190, 190) 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 4vw;
+
+ 
+
+}
+#price{
+    color: #0da487;
+    font-weight: bolder;
+    font-size: 1.3vw;
+}
+#tittle{
+    font-weight: bolder;
+    
+}
+#category{
+    color: #0da487;
+    font-size: 13px;
+}
+h6{
+    margin-top: 2vw;
+    margin-left: 3vw;
+    width: 10vw;
+    font-size: 20px;
+    align-items: center;
+}
+#containerCards figure img{
+    width: 9vw;
+}

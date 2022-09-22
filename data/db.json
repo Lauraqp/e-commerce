@@ -1,0 +1,245 @@
+{
+  "products": [
+    {
+      "id": "0",
+      "tittle": "HERSHEY'S",
+      "category": "Biscuits & Snacks",
+      "description": "HERSHEY'S, Milk Chocolate Snack Size Candy Bars, Halloween, 10.35 oz",
+      "price": "3.48",
+      "quantity": "1",
+      "image": "../productos/hershey.jpeg"
+    },
+    {
+      "id": "1",
+      "tittle": "Pillsbury Grands",
+      "category": "Biscuits & Snacks",
+      "description": "Pillsbury Grands! Flaky Layers Original Biscuits, 8 ct., 16.3 oz.",
+      "price": "2.68",
+      "quantity": "1",
+      "image": "../productos/grands biscuit.jpg"
+    },
+    {
+      "id": "2",
+      "tittle": "Odom’s Tennessee Pride",
+      "category": "Biscuits & Snacks",
+      "description": "Odom’s Tennessee Pride Snack Size Chicken & Buttermilk Biscuits, 16.3 oz, 10 Ct (Frozen)",
+      "price": "6.22",
+      "quantity": "1",
+      "image": "../productos/odoms.jpg"
+    },
+    {
+      "id": "3",
+      "tittle": "RITZ Fresh Stacks",
+      "category": "Biscuits & Snacks",
+      "description": "RITZ Fresh Stacks Original Crackers, Family Size, 17.8 oz",
+      "price": "4.28",
+      "quantity": "1",
+      "image": "../productos/ritz.jpg"
+    },
+    {
+      "id": "4",
+      "tittle": "Pringles Potato Crisps Chips",
+      "category": "Biscuits & Snacks",
+      "description": "Pringles Potato Crisps Chips, Variety Pack, 27 Ct, 19.5 Oz",
+      "price": "12.87",
+      "quantity": "1",
+      "image": "../productos/pringless.jpg"
+    },
+    {
+      "id": "5",
+      "tittle": "Goldfish Colors Crackers",
+      "category": "Biscuits & Snacks",
+      "description": "Goldfish Colors Crackers, Snack Pack, 1 oz, 12 CT Multi-Pack Tray",
+      "price": "6.43",
+      "quantity": "1",
+      "image": "../productos/goldfar.jpg"
+    },
+    {
+      "id": "6",
+      "tittle": "Frito-Lay Flavor Mix Snacks Variety Pack",
+      "category": "Biscuits & Snacks",
+      "description": "Frito-Lay Flavor Mix Snacks Variety Pack, 18 Count (Assortment May Vary)",
+      "price": "24.00",
+      "quantity": "1",
+      "image": "../productos/flavormix.jpg"
+    },
+    {
+      "id": "7",
+      "tittle": "Nutella & GO!",
+      "category": "Biscuits & Snacks",
+      "description": "4-Pack, Nutella & GO!, Hazelnut and Cocoa Spread with Breadsticks, Snack Pack for Kids, 1.8 oz each",
+      "price": "5.44",
+      "quantity": "1",
+      "image": "../productos/nutella.jpg"
+    },
+    {
+      "id": "8",
+      "tittle": "Great Value Original Fruit Smiles",
+      "category": "Biscuits & Snacks",
+      "description": "Great Value Original Fruit Smiles, 0.9 oz, 50 Count",
+      "price": "7.27",
+      "quantity": "1",
+      "image": "../productos/fruits smile.jpg"
+    },
+    {
+      "id": "9",
+      "tittle": "Broccoli",
+      "category": "Vegetables",
+      "description": "Broccoli Crowns, per lb",
+      "price": "1.40",
+      "quantity": "1",
+      "image": "../productos/brocoli.jpg"
+    },
+    {
+      "id": "10",
+      "tittle": "Bell Pepper",
+      "category": "Vegetables",
+      "description": "Fresh Green Bell Pepper, Each",
+      "price": "0.68",
+      "quantity": "1",
+      "image": "../productos/pimiento.jpg"
+    },
+    {
+      "id": "11",
+      "tittle": "Baby Carrots",
+      "category": "Vegetables",
+      "description": "Baby Carrots, 2lb bag",
+      "price": "1.92",
+      "quantity": "1",
+      "image": "../productos/carrots.jpg"
+    },
+    {
+      "id": "12",
+      "tittle": "Lettuce",
+      "category": "Vegetables",
+      "description": "Romaine Lettuce Hearts, 3 Pack",
+      "price": "3.34",
+      "quantity": "1",
+      "image": "../productos/lettuce.jpg"
+    },
+    {
+      "id": "13",
+      "tittle": "Red Onions",
+      "category": "Vegetables",
+      "description": "Red Onions, each",
+      "price": "0.94",
+      "quantity": "1",
+      "image": "../productos/onion.jpg"
+    },
+    {
+      "id": "14",
+      "tittle": "Clementines, 3lb bag",
+      "category": "Fruit",
+      "description": "Clementines, 3lb bag",
+      "price": "3.98",
+      "quantity": "1",
+      "image": "../productos/mandarina.jpg"
+    },
+    {
+      "id": "15",
+      "tittle": "Fresh Strawberries",
+      "category": "Fruit",
+      "description": "Fresh Strawberries, 1 lb",
+      "price": "2.98",
+      "quantity": "1",
+      "image": "../productos/fresas.jpg"
+    },
+    {
+      "id": "16",
+      "tittle": "Soda",
+      "category": "Beverages",
+      "description": "OLIPOP A New Kind of Soda, Root Beer Sparkling Tonic, 12 fl oz",
+      "price": "2.98",
+      "quantity": "1",
+      "image": "../productos/beer.jpg"
+    },
+    {
+      "id": "17",
+      "tittle": "Mountain Dew",
+      "category": "Beverages",
+      "description": "Mountain Dew Citrus Soda Pop, 12 oz Cans, 24 Pack",
+      "price": "12.28",
+      "quantity": "1",
+      "image": "../productos/montandew.jpg"
+    },
+    {
+      "id": "18",
+      "tittle": "Salame",
+      "category": "Meats",
+      "description": "Gallo Salame Deli Thin Sliced Italian Dry Salami Lunch Meat, 7 oz",
+      "price": "4.92",
+      "quantity": "1",
+      "image": "../productos/salame.jpg"
+    },
+    {
+      "id": "19",
+      "tittle": "chicken",
+      "category": "Meats",
+      "description": "Freshness Guaranteed Boneless Chicken Breasts Family Pack, 4.7 - 6.25 lb",
+      "price": "15.02",
+      "quantity": "1",
+      "image": "../productos/chicken.jpg"
+    },
+    {
+      "id": "20",
+      "tittle": "Meat",
+      "category": "Meats",
+      "description": "All Natural* 93% Lean/7% Fat Lean Ground Beef Tray, 1 lb",
+      "price": "5.86",
+      "quantity": "1",
+      "image": "../productos/carne.jpg"
+    },
+    {
+      "id": "21",
+      "tittle": "Breakfast Bowl",
+      "category": "Breakfast",
+      "description": "Jimmy Dean Sausage & Gravy Breakfast Bowl, 7 oz (Frozen)",
+      "price": "2.82",
+      "quantity": "1",
+      "image": "../productos/breakfaste1.jpg"
+    },
+    {
+      "id": "22",
+      "tittle": "Croissant",
+      "category": "Breakfast",
+      "description": "Great Value Croissant Sandwiches Sausage Egg and Cheese, 4 Count (Frozen)",
+      "price": "5.78",
+      "quantity": "1",
+      "image": "../productos/croissant.jpg"
+    },
+    {
+      "id": "23",
+      "tittle": "Wines Merlot",
+      "category": "Wines",
+      "description": "Oak Leaf® Vineyards Merlot Red Wine - 750ml, American",
+      "price": "2.98",
+      "quantity": "1",
+      "image": "../productos/wines.jpg"
+    }
+  ],
+  "carrito": [
+    {
+      "id": "16",
+      "tittle": "Soda",
+      "category": "Beverages",
+      "description": "OLIPOP A New Kind of Soda, Root Beer Sparkling Tonic, 12 fl oz",
+      "price": "2.98",
+      "quantity": "1",
+      "image": "../productos/beer.jpg",
+      "cantidad": 1,
+      "valorTotal": 2.98
+    },
+    {
+      "id": "0",
+      "tittle": "HERSHEY'S",
+      "category": "Biscuits & Snacks",
+      "description": "HERSHEY'S, Milk Chocolate Snack Size Candy Bars, Halloween, 10.35 oz",
+      "price": "3.48",
+      "quantity": "1",
+      "image": "../productos/hershey.jpeg",
+      "cantidad": 1,
+      "valorTotal": 3.48
+    }
+  ],
+  "favoritos": []
+}
